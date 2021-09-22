@@ -36,9 +36,9 @@ more tools to your toolbox
 
 ### How do I know if I am tracking?
 If you can answer the questions or do these tasks below (and please don't just say in your head yes. Even if you can do it, for practice actually implement each these in each section)
-1. What is the syntax for an opening and closing tag?
-2. What is a self-closing tag and name some examples?
-3. Can you create a table? (strech goal - can you create one without looking at your notes)
+1. What is the syntax for an opening and closing tag? <tag></tag>
+2. What is a self-closing tag and name some examples? <br> <hl>
+3. Can you create a table? (strech goal - can you create one without looking at your notes) yes
 4. Can you create an audio player in your website?
 5. Can you create a video player in your website? Can you adjust the width and height using only html?
 6. Can you create a form with a button?
