@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your Information</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td class="label-td"><label for="name">Name:</label></td>
+                <td class="input-td"><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td class="label-td"><label for="email">Email:</label></td>
+                <td class="input-td"><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td class="label-td"><label for="phone">Phone:</label></td>
+                <td class="input-td"><input type="tel" id="phone"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><input type="checkbox">From San Francisco</td>
+                <td><input type="checkbox">Not From San Francisco</td>
+            </tr>
+        </table>
+        <button>Submit</button>
+    </form>
+</body>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 400px;
+        /* border: 1px solid greenyellow; */
+    }
+    td {
+        display: table-cell;
+        vertical-align: middle;
+        height: 50px;
+        /* border: 1px solid red; */
+    }
+    label {
+        font-size: 18px;
+    }
+    input {
+        font-size: 18px;
+    }
+    button {
+        font-size: 18px;
+        border-radius: 4px;
+        box-shadow: 2px 2px grey;
+    }
+    .label-td {
+        width: 60px;
+    }
+    .input-td {
+        width: 340px;
+    }
+</style>
+</html>
